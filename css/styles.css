@@ -112,6 +112,20 @@ ul li, ol li {
                   display: flex;
                   gap: 40px;
 }
+.curren {
+                  position: relative;
+}
+
+.curren::after {
+                  content: '';
+                  bottom: -3px;
+                  position: absolute;
+                  height: 4px;
+                  width: 100%;
+                  left: 0;
+                  border-radius: 2px;
+                  background-color: rgba(64, 75, 191, 1);
+}
                   
 
 
@@ -264,7 +278,11 @@ ul li, ol li {
                   margin-bottom: 20px;
                   width: calc((100% - 72px) / 4);
                   border-radius: 0px 0px 4px 4px;
-
+                  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.team-item:hover {
+                  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 .name-job{
                   padding: 32px 0;
@@ -273,6 +291,9 @@ ul li, ol li {
                   display: flex;
                   justify-content: center;
                   align-items: center;
+}
+.instagram{
+                  margin-left: 16px;
 }
 .instagram,
 .twitter,
@@ -307,7 +328,13 @@ ul li, ol li {
                   row-gap: 48px;
 
 }
+.portfolio-item-img-two:hover .image {
+                  opacity: 0;
+}
 
+.portfolio-item-img-two:hover .text-overlay {
+                  opacity: 1;
+}
 .portfolio-item {
                   background-color: #FFFFFF;
                   display: flex;
@@ -316,7 +343,33 @@ ul li, ol li {
                   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
                   transition: transform 0.3s ease;
                   width: calc((100% - 48px) / 3);
+                  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
+}
+.portfolio-item:hover {
+                  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+.image-two{
+                  object-fit: cover;
+                  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.text-overlay {
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  width: 100%;
+                  height: 100%;
+                  background-color: rgba(77, 90, 229, 1);;
+                  color: white;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  text-align: center;
+                  padding: 10px;
+                  box-sizing: border-box;
+                  opacity: 0;
+                  transition: opacity 0.3s ease;
 }
 
 .portfolio-item-heading {
@@ -326,6 +379,10 @@ ul li, ol li {
                   letter-spacing: 0.02em;
                   color: #2e2f42;
                   margin-bottom: 8px;
+                  
+}
+.portfolio-item-img-two:hover .text-overlay {
+                  opacity: 1;
 }
 .name-category{
                   padding: 32px 16px;
@@ -339,11 +396,19 @@ ul li, ol li {
                   color: #434455;
 }
 .portfolio-item-img {
-
+                  display: block;
                   max-width: 100%;
                   height: auto;
                   border-radius: 5px;
+                  object-fit: cover;
 }
+.portfolio-item-img-two {
+                  position: relative;
+                  width: 360px;         
+                  height: auto;
+                  overflow: hidden;
+}
+
 .portfolio-section{
                   padding-top: 120px;
                   padding-bottom: 120px;
@@ -396,6 +461,23 @@ img {
                   max-width: 300px;
 
 }
+.instagram-one,
+.twitter-one,
+.facebook-one,
+.linkedIn-one{
+                  margin-right: 16px;
+}
+
+
 .icon-ellipse-footer{
-                  margin-top: 16px;
+                  margin-top: 16px;              
+}
+.icon-ellipse-footer svg {
+                  fill: currentColor !important;
+                  transition: fill 0.3s ease, transform 0.3s ease;
+}
+
+.icon-ellipse-footer svg:hover {
+                  fill: #00D1A6 !important;
+                  transform: scale(1.1);
 }
