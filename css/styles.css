@@ -153,8 +153,14 @@ ul li, ol li {
                   align-items: center;                                
                   text-align: center;                     
                   box-sizing: border-box;
-                  padding: 188px 0
+                  padding: 188px 0;
+                  background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+                  url(../images/7e83b6c8ee4603ea892aa8aaebb3c5fe.jpg);
+                  background-repeat: no-repeat;
+                  background-size: cover ;
+                  background-position: center;
 }
+
 .wrapper{
                   padding-top: 72px;
 }
@@ -200,6 +206,16 @@ ul li, ol li {
 }
 .main-text{
                   padding: 120px 0;
+}
+.svg_img{
+                  align-items: center;
+                  display: flex;
+                  justify-content: center;
+                  border: 1px solid #8E8F99;
+                  border-radius: 4px;
+                  padding: 10px;
+                  width: 264px;
+                  height: 112px;
 }
 
 .section-title {
@@ -252,6 +268,18 @@ ul li, ol li {
 }
 .name-job{
                   padding: 32px 0;
+}
+.icon-ellipse{
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+}
+.instagram,
+.twitter,
+.facebook,
+.linkedIn{
+                  margin-right: 24px;
+                  margin-top: 8px;
 }
 
 .team-member-heading {
@@ -348,10 +376,26 @@ ul li, ol li {
                   letter-spacing: 0.02em;
                   max-width: 264px
 }
+.footer-paragraph-social{
+                  font-weight: 500;
+                  font-size: 16px;
+                  line-height: 24px;
+                  letter-spacing: 2%;
+                  color: rgba(255, 255, 255, 1);
+}
+.footer-section-main{
+                  display: flex;
+}
+.footer-section-two{
+                  margin-left: 120px;
+}
 img {
                   display: block;
 }
 .footer-main{
                   max-width: 300px;
 
+}
+.icon-ellipse-footer{
+                  margin-top: 16px;
 }
