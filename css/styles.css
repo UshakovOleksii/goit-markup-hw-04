@@ -240,13 +240,7 @@ ul li, ol li {
                   background-color: #f4f4fd;
                   margin-bottom: 8px;
 }
-.antenna,
-.clock,
-.diagram,
-.astronaut{
-                  width: 64;
-                  height: 64;
-}
+
 
 .section-title {
                   font-weight: 500;
