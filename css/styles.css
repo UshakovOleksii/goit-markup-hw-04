@@ -456,7 +456,7 @@ ul li, ol li {
                   padding-top: 120px;
                   padding-bottom: 120px;
 }
-/*
+
 .footer-section {
                   background-color: #2e2f42;
                   padding: 100px 0;
@@ -504,27 +504,11 @@ img {
                   max-width: 300px;
 
 }
-.instagram-one,
-.twitter-one,
-.facebook-one,
-.linkedIn-one{
-                  margin-right: 16px;
-}
 
 
-.icon-ellipse-footer{
-                  margin-top: 16px;              
-}
-.icon-ellipse-footer svg {
-                  fill: currentColor !important;
-                  transition: fill 0.3s ease, transform 0.3s ease;
-}
 
-.icon-ellipse-footer svg:hover {
-                  fill: #00D1A6 !important;
-                  transform: scale(1.1);
-}
-*/
+
+
 .footer-container{
                   display: flex;
                   align-items: baseline;
