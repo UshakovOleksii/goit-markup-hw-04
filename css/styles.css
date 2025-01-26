@@ -336,6 +336,8 @@ ul li, ol li {
 }
 .svg-social-network{
                   fill:#f4f4fd;
+}
+.social-network{
                   width: 40px;
                   height: 40px;
 }
@@ -527,8 +529,6 @@ img {
                   gap: 16px;
 }
 .icon-one{
-                  width: 40px;
-                  height: 40px;
                   fill:#f4f4fd;
 }
 .instagram-one-a{
@@ -544,4 +544,8 @@ img {
 .instagram-one-a:hover,
 .instagram-one-a:focus{
                   background-color: #31d0aa;
+}
+.instagram-one{
+                  width: 40px;
+                  height: 40px;
 }
