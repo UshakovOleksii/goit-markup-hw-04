@@ -451,6 +451,9 @@ ul li, ol li {
                   height: auto;
                   overflow: hidden;
 }
+.portfolio-item-img-two:hover {
+                  transform: translateY(0%);
+}
 
 .portfolio-section{
                   padding-top: 120px;
